@@ -1,0 +1,16 @@
+{
+  "validated_environment": {
+    "date": "2026-10-05",
+    "python": "3.x",
+    "reportlab": "4.4.9",
+    "pymupdf": "1.26.7",
+    "pillow": "12.3.0",
+    "fonttools": "4.63.0",
+    "inkscape": "1.4",
+    "pdf_renderer_for_regression": "pdftoppm via OpenAI PDF skill scripts"
+  },
+  "validation": {
+    "noto_front_view": "reconstructed renderer produced a pixel-identical page to the historical Noto front-view PDF at 200 dpi",
+    "narkis_front_view": "reconstructed renderer produced only negligible caption-edge raster differences from the historical Narkis front-view PDF at 200 dpi"
+  }
+}
