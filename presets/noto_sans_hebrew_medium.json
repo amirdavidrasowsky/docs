@@ -1,0 +1,34 @@
+{
+  "id": "noto_sans_hebrew_medium",
+  "display_name": "Noto Sans Hebrew Medium",
+  "backend": "reportlab",
+  "font": {
+    "hebrew_file": "NotoSansHebrew-Medium.ttf",
+    "latin_file": "NotoSans-Medium.ttf",
+    "hebrew_sha256_reference": "146f27948badbfe3553ac7e8c829b4bf96bc47106ff174323d16720f2615b4e0",
+    "latin_sha256_reference": "013ae62f5187c01e8752de78829ee7e1e0feaed6edee17db0dbf703988c99f3d"
+  },
+  "name_font_size_pt": 33.0,
+  "date_font_size_pt": 17.0,
+  "name_baseline_from_bottom_mm": 27.944445,
+  "date_baseline_from_bottom_mm": 17.241668,
+  "fabrication_overlay": {
+    "reproduce_legacy_caption_difference": true,
+    "date_font_size_pt": 18.0,
+    "date_baseline_from_bottom_mm": 16.888890,
+    "stroke_color": "#ff0000",
+    "stroke_width_pt": 0.45,
+    "crosshair_total_length_mm": 8.0,
+    "footer_text": "RED = DRILL/CUT REFERENCE ONLY | holes Ø5.5 mm | centers 15.5 mm from finished edges",
+    "footer_font_size_pt": 5.5,
+    "footer_baseline_from_bottom_mm": 1.8
+  },
+  "production_spec": {
+    "name_visible_height_mm": 9.2,
+    "date_visible_height_mm": 5.6,
+    "photo_to_name_gap_mm": 6.0,
+    "visual_line_gap_mm": 4.0,
+    "clear_below_date_mm": 16.2
+  },
+  "historical_note": "The front-view and print-ready Noto PDFs are byte-different only by metadata when regenerated, but the provided reconstruction geometry/typography renders pixel-identically at 200 dpi using ReportLab 4.4.9 and the reference font hashes. The historical fabrication overlay used an 18 pt date line; preserve this only when exact legacy recreation is required."
+}
