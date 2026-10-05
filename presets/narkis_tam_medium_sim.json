@@ -1,0 +1,31 @@
+{
+  "id": "narkis_tam_medium_sim",
+  "display_name": "Narkis Tam Medium alternative",
+  "backend": "inkscape",
+  "font": {
+    "family": "Narkiss Tam",
+    "style": "Regular",
+    "reference_file_name": "Narkiss_Tam_Regular.otf",
+    "reference_sha256": "577f109295383d18822aaf3359660943b539b3baeb5d0c6e4b2d5de1c44a15ce",
+    "redistribution": "Do not commit or redistribute the proprietary/commercial font binary. Install it locally or pass a licensed copy to the renderer."
+  },
+  "name_font_size_pt": 35.007,
+  "date_font_size_pt": 15.987,
+  "name_baseline_from_top_mm": 271.698,
+  "date_baseline_from_top_mm": 282.4005,
+  "name_stroke_width_mm": 0.13,
+  "date_stroke_width_mm": 0.094,
+  "stroke_color": "#000000",
+  "fill_color": "#000000",
+  "fabrication_overlay": {
+    "stroke_color": "#d32222",
+    "stroke_width_mm": 0.35,
+    "crosshair_total_length_mm": 8.0,
+    "footer_text": null
+  },
+  "measured_reference_path_bbox_mm_from_top_left": {
+    "name": [84.994, 265.278, 115.117, 273.861],
+    "date": [69.894, 278.507, 130.157, 283.386]
+  },
+  "historical_note": "The historical Narkis Tam Medium alternative used authentic Narkiss Tam Regular outlines with a small black stroke expansion to simulate a Medium/500 appearance, then converted all lettering to vector paths in Inkscape. The tuned values above reproduce the prior output to a negligible render-diff."
+}
