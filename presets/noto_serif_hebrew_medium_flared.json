@@ -1,0 +1,22 @@
+{
+  "id": "noto_serif_hebrew_medium_flared",
+  "display_name": "Noto Serif Hebrew Medium (flared serif alternative)",
+  "backend": "reportlab",
+  "font": {
+    "hebrew_file": "NotoSerifHebrew-Medium.ttf",
+    "latin_file": "NotoSerif-Medium.ttf",
+    "license": "SIL Open Font License"
+  },
+  "name_font_size_pt": 29.0,
+  "date_font_size_pt": 16.0,
+  "name_baseline_from_bottom_mm": 28.30,
+  "date_baseline_from_bottom_mm": 17.77,
+  "fabrication_overlay": {
+    "reproduce_legacy_caption_difference": false,
+    "stroke_color": "#d32222",
+    "stroke_width_mm": 0.35,
+    "crosshair_total_length_mm": 8.0,
+    "footer_text": null
+  },
+  "historical_note": "Recommended flared Hebrew serif alternative. It is intentionally not Noto Sans Hebrew; the Hebrew glyphs come from Noto Serif Hebrew Medium."
+}
