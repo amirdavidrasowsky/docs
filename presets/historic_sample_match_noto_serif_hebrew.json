@@ -1,0 +1,45 @@
+{
+  "id": "historic_sample_match_noto_serif_hebrew",
+  "display_name": "Historic sample match - Noto Serif Hebrew",
+  "backend": "inkscape_custom",
+  "reference": {
+    "source": "attached historic plaque photograph, approximately 2015 production",
+    "goal": "match apparent type style, stroke weight, visible height, line spacing, and vertical placement in the 41 mm bottom band"
+  },
+  "font": {
+    "family": "Noto Serif Hebrew",
+    "name_weight": 700,
+    "date_weight": 500,
+    "license": "SIL Open Font License"
+  },
+  "name": {
+    "font_size_pt": 29.0,
+    "horizontal_scale_percent": 123.0,
+    "baseline_from_top_mm": 272.70,
+    "center_x_mm": 100.0
+  },
+  "date": {
+    "font_size_pt": 16.0,
+    "horizontal_scale_percent": 112.0,
+    "baseline_from_top_mm": 284.90,
+    "center_x_mm": 100.0
+  },
+  "reference_derived_spacing": {
+    "photo_bottom_from_top_mm": 259.0,
+    "name_typical_body_top_from_top_mm": 266.2,
+    "name_typical_visible_height_mm": 9.0,
+    "photo_to_name_visible_gap_mm": 7.2,
+    "visible_interline_gap_mm": 4.8,
+    "date_typical_visible_height_mm": 5.0,
+    "date_bottom_clearance_mm": 13.7
+  },
+  "geometry": {
+    "panel_mm": [200.0, 300.0],
+    "photo_mm": [176.0, 247.0],
+    "margins_mm": {"left": 12.0, "right": 12.0, "top": 12.0, "bottom": 41.0},
+    "hole_diameter_mm": 5.5,
+    "hole_center_inset_mm": 15.5
+  },
+  "second_surface": true,
+  "notes": "This is a reproducible visual match, not a claim that the historic plaque's original font file has been definitively identified from the photograph. Text is exported to vector paths for printer safety."
+}
