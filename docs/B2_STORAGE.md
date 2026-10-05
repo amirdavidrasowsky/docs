@@ -1,8 +1,8 @@
 # Backblaze B2 storage plan
 
-The ChatGPT environment used to create this repository did not expose a Backblaze B2/S3 connector, so no files were uploaded to B2 from this chat. The two required source images are small enough to keep in GitHub without meaningful repository bloat, and they are committed under `assets/`.
+The ChatGPT environment used to create this repository did **not** expose a Backblaze B2/S3 connector, so no files were uploaded to B2 from this chat. This is documented explicitly so a future session does not assume objects exist when they do not.
 
-For future large artifacts, B2 is a good fit. Recommended object layout:
+Recommended object layout if B2 is connected later:
 
 ```text
 nir-dahan-plaque/
@@ -10,9 +10,24 @@ nir-dahan-plaque/
   source/reference_plaque_typography.jpg
   historical/NotoSansHebrewMedium/...
   historical/NarkisTamMedium/...
-  generated/<font-preset>/<timestamp-or-version>/...
+  generated/<font-preset>/<version>/...
 ```
 
-Keep a small JSON manifest in GitHub containing, for each B2 object: bucket, object key, byte size, SHA-256, MIME type, and optional signed/public URL. Do not store B2 application keys or S3 secrets in GitHub.
+For each B2 object, keep a small JSON manifest in GitHub containing:
 
-If a B2/S3 connector becomes available in a later ChatGPT session, upload large generated PDFs/ZIPs there and update the manifest rather than committing every generated binary to GitHub. Source code, specs, presets, documentation, manifests, and small reference images should remain in GitHub.
+- bucket name
+- object key
+- byte size
+- SHA-256
+- MIME type
+- optional public or signed URL
+- source/version note
+
+Do not store B2 application keys, S3 keys, or secrets in GitHub.
+
+Source assets expected by the renderer:
+
+- `nir_dahan_portrait_original.png`: 1118 x 1536 px, SHA-256 `2bbdf94550fb3c907479647e3cfdcf4090cca6c6285f5e39d7d952bcea251c4f`
+- `reference_plaque_typography.jpg`: 1536 x 1152 px, SHA-256 `07eac106b62dd80d31eb7f035c7e5513d964efa7eb09786b84b28676c9b13ec8`
+
+Until B2 is connected, the originating chat provides a downloadable source/reproduction bundle containing those binaries. Once uploaded to B2, record the exact B2 keys and hashes here or in a dedicated JSON manifest.
