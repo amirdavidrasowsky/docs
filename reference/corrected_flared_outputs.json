@@ -1,0 +1,25 @@
+{
+  "created": "2026-10-05",
+  "recommended_variant": "noto_serif_hebrew_medium_flared",
+  "reason": "The actually available Narkiss Tam Regular face is relatively square/sans-like. Noto Serif Hebrew Medium gives the flared traditional Hebrew appearance requested and visibly differs from Noto Sans Hebrew.",
+  "narkiss_tam_regular_actual": {
+    "print_ready_sha256": "0903b319cb9585cd6e5a1302e2fc4c406e948b79d43a97bddbed79093b821a85",
+    "front_view_sha256": "0903b319cb9585cd6e5a1302e2fc4c406e948b79d43a97bddbed79093b821a85",
+    "mirrored_sha256": "a1ae8ca9b60e2f152a19c41b299048e456087c520a6045f58f3a3649f3efa690",
+    "fabrication_sha256": "5d13fd75d264f2f88b7f8060dbc74b7082085279d5925c488e4f2c39fd8d1d8e"
+  },
+  "noto_serif_hebrew_medium_flared": {
+    "print_ready_sha256": "fb3a2c27e968eac6883d939f0d230adb34f9e54905829a7aa5ad3a5eed08f8f9",
+    "front_view_sha256": "fb3a2c27e968eac6883d939f0d230adb34f9e54905829a7aa5ad3a5eed08f8f9",
+    "mirrored_sha256": "c63f920d31b96994dc53819e7a107df9afca756ae94e954fa5595d57683575c1",
+    "fabrication_sha256": "c9f9b3c23e3f1c35901d443aed583c7ded960b6341b7d78a09b2b7d7f307fdca",
+    "production_spec_sha256": "80dcfc1a1b6412790dbbff4f1252e426b78302da0f7c426e6f2b45005054b17b"
+  },
+  "qa": {
+    "page_size": "200 x 300 mm on all artwork/fabrication PDFs",
+    "photo_rect": "x=12 mm, y=12 mm from top, w=176 mm, h=247 mm",
+    "holes": "5.5 mm diameter, centers 15.5 mm from each adjacent edge",
+    "second_surface": "mirrored file verified visually",
+    "renderer": "OpenAI PDF render script at 200 dpi"
+  }
+}
