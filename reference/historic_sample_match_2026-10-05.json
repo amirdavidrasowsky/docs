@@ -1,0 +1,26 @@
+{
+  "created": "2026-10-05",
+  "variant": "historic_sample_match_noto_serif_hebrew",
+  "visual_qa": {
+    "front_view_checked": true,
+    "mirrored_second_surface_checked": true,
+    "fabrication_overlay_checked": true,
+    "production_spec_checked": true,
+    "pdf_render_dpi": 200
+  },
+  "geometry_qa": {
+    "page_size_mm": [200.0, 300.0],
+    "photo_rect_top_origin_mm": [12.0, 12.0, 176.0, 247.0],
+    "hole_diameter_mm": 5.5,
+    "hole_center_inset_mm": 15.5
+  },
+  "output_sha256": {
+    "print_ready_pdf": "4f8e2a34e555519b8a1af2d1516f7f8a72676df525b3e8f1399a2c1a3865579f",
+    "front_view_pdf": "4f8e2a34e555519b8a1af2d1516f7f8a72676df525b3e8f1399a2c1a3865579f",
+    "mirrored_second_surface_pdf": "4350091bc420cfc458b75bdc0602622554f239369d28c561b9e428d2c392a507",
+    "fabrication_pdf": "d61573cb5a8535db56c12b00d2eb0ea6c56b8da4244ffdbd4113218a6c42b12a",
+    "production_spec_pdf": "ce4266ca9292e051c53fe3f74527aec56fd8a653024538f6e3973930ce966d62",
+    "preview_300dpi_png": "98d1ff01fd24d135723c58184c753457bf1f37f6cbb2d4c366cf0caf9d4aa2c5",
+    "print_shop_notes_txt": "b15162d07d347fd0a2193623aab35a5cbf28c97a4174f6e01b3dc0caac53e98b"
+  }
+}
