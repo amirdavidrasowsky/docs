@@ -1,0 +1,26 @@
+{
+  "id": "narkiss_tam_regular_actual",
+  "display_name": "Narkiss Tam Regular (actual font, vector outlines)",
+  "backend": "inkscape",
+  "font": {
+    "family": "Narkiss Tam",
+    "style": "Regular",
+    "reference_file_name": "Narkiss_Tam_Regular.otf",
+    "redistribution": "Do not redistribute the commercial/proprietary font binary. Use installed/licensed font and convert final text to outlines."
+  },
+  "name_font_size_pt": 36.0,
+  "date_font_size_pt": 19.0,
+  "name_baseline_from_top_mm": 271.70,
+  "date_baseline_from_top_mm": 281.70,
+  "name_stroke_width_mm": 0.0,
+  "date_stroke_width_mm": 0.0,
+  "stroke_color": "#000000",
+  "fill_color": "#000000",
+  "fabrication_overlay": {
+    "stroke_color": "#d32222",
+    "stroke_width_mm": 0.35,
+    "crosshair_total_length_mm": 8.0,
+    "footer_text": null
+  },
+  "historical_note": "Corrected actual-font alternative. Uses the installed Narkiss Tam Regular face with no synthetic thickening. Final lettering is converted to vector paths, preventing font fallback at the printer."
+}
