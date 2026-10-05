@@ -1,0 +1,43 @@
+{
+  "finished_width_mm": 200.0,
+  "finished_height_mm": 300.0,
+  "material": "clear acrylic / clear plastic",
+  "material_thickness_mm": 5.0,
+  "photo_x_mm": 12.0,
+  "photo_y_from_bottom_mm": 41.0,
+  "photo_width_mm": 176.0,
+  "photo_height_mm": 247.0,
+  "margins_mm": {
+    "left": 12.0,
+    "right": 12.0,
+    "top": 12.0,
+    "bottom": 41.0
+  },
+  "hole_diameter_mm": 5.5,
+  "hole_center_inset_mm": 15.5,
+  "hole_centers_from_bottom_left_mm": [
+    [15.5, 15.5],
+    [184.5, 15.5],
+    [15.5, 284.5],
+    [184.5, 284.5]
+  ],
+  "name_he": "ניר דהן",
+  "date_he": "אפריל 2023 - אוקטובר 2025",
+  "name_he_visual_ltr_for_reportlab": "ןהד רינ",
+  "date_visual_segments_ltr_for_reportlab": [
+    {"script": "latin", "text": "2025"},
+    {"script": "latin", "text": " "},
+    {"script": "hebrew", "text": "רבוטקוא"},
+    {"script": "hebrew", "text": " "},
+    {"script": "hebrew", "text": "-"},
+    {"script": "hebrew", "text": " "},
+    {"script": "latin", "text": "2023"},
+    {"script": "latin", "text": " "},
+    {"script": "hebrew", "text": "לירפא"}
+  ],
+  "second_surface": true,
+  "white_backing_recommended": true,
+  "source_photo_expected_pixels": [1118, 1536],
+  "canonical_crop_expected_pixels": [1094, 1536],
+  "crop_rule": "center-crop horizontally to photo_width_mm/photo_height_mm; do not crop vertically for the supplied source"
+}
