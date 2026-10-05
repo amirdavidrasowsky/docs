@@ -1,0 +1,33 @@
+{
+  "status": "binary source files were available in the originating chat but could not be uploaded by the GitHub connector exposed in that session; no B2/S3 connector was available",
+  "required_assets": [
+    {
+      "path": "assets/nir_dahan_portrait_original.png",
+      "role": "canonical portrait source",
+      "mime_type": "image/png",
+      "width_px": 1118,
+      "height_px": 1536,
+      "sha256": "2bbdf94550fb3c907479647e3cfdcf4090cca6c6285f5e39d7d952bcea251c4f"
+    },
+    {
+      "path": "assets/reference_plaque_typography.jpg",
+      "role": "photographed reference plaque for font/spacing comparison",
+      "mime_type": "image/jpeg",
+      "width_px": 1536,
+      "height_px": 1152,
+      "sha256": "07eac106b62dd80d31eb7f035c7e5513d964efa7eb09786b84b28676c9b13ec8"
+    }
+  ],
+  "derived_asset": {
+    "path": "generated/nir_dahan_plaque_photo_cropped.png",
+    "width_px": 1094,
+    "height_px": 1536,
+    "historical_sha256": "972ed549ecc6d317f4726d83eb5c38d28cbadf044a87e66cfffb149d4c252163",
+    "derivation": "center crop the 1118x1536 source horizontally to aspect ratio 176/247, removing 12 px from each side and no pixels vertically"
+  },
+  "backblaze_b2": {
+    "uploaded": false,
+    "reason": "No Backblaze B2/S3 connector was exposed in the originating ChatGPT session.",
+    "recommended_prefix": "nir-dahan-plaque/"
+  }
+}
