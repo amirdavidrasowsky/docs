@@ -1,0 +1,38 @@
+{
+  "source_assets": {
+    "nir_dahan_portrait_original.png": {
+      "sha256": "2bbdf94550fb3c907479647e3cfdcf4090cca6c6285f5e39d7d952bcea251c4f",
+      "pixels": [1118, 1536]
+    },
+    "reference_plaque_typography.jpg": {
+      "sha256": "07eac106b62dd80d31eb7f035c7e5513d964efa7eb09786b84b28676c9b13ec8",
+      "pixels": [1536, 1152]
+    },
+    "canonical_cropped_photo.png": {
+      "sha256": "972ed549ecc6d317f4726d83eb5c38d28cbadf044a87e66cfffb149d4c252163",
+      "pixels": [1094, 1536],
+      "derived": true
+    }
+  },
+  "noto_sans_hebrew_medium": {
+    "nir_dahan_plaque_print_ready_NotoSansHebrewMedium.pdf": "3cc6d420fcfe353e6e55cba46f71ffbb8c6ce35976cc4ca20150b281e3936d5e",
+    "nir_dahan_plaque_front_view_NotoSansHebrewMedium.pdf": "3cc6d420fcfe353e6e55cba46f71ffbb8c6ce35976cc4ca20150b281e3936d5e",
+    "nir_dahan_plaque_second_surface_MIRRORED_NotoSansHebrewMedium.pdf": "6e9bc45c303d407500d0b982b1c20054b16bc654cb1fa2611bc31ecc0d266fd0",
+    "nir_dahan_plaque_fabrication_5p5mm_holes_NotoSansHebrewMedium.pdf": "e0bc7cc2bc1101a854a60242a76ac6e0a8d44de452bfbaa6514fe855dd2a5d24",
+    "nir_dahan_plaque_production_spec_NotoSansHebrewMedium.pdf": "54d205bd166a3f77b910843699c7a8e5b7587ffa235f4fee1dc71af57c01e68b"
+  },
+  "narkis_tam_medium_alternative": {
+    "nir_dahan_plaque_print_ready_NarkisTamMedium.pdf": "a7156827d0d2ffd3f373cdbece806cc75bc549a81dbf3196dafac6db5913621a",
+    "nir_dahan_plaque_front_view_NarkisTamMedium.pdf": "c28bd04c50750d617aa7db5616b77885084a71c5ea1b948c27e61c7e15ec94a9",
+    "nir_dahan_plaque_second_surface_MIRRORED_NarkisTamMedium.pdf": "9336f6afccc5903d07224f16168ce69ddf1803bb5fb237d156d60a6ce270807a",
+    "nir_dahan_plaque_fabrication_5p5mm_holes_NarkisTamMedium.pdf": "e1d5d1278bb86955fe35bd9aefdeb314ca33046a2ddb8920e6131da2413fdce6",
+    "nir_dahan_plaque_production_spec_NarkisTamMedium.pdf": "0c3c362d8a95b8d3ac5fb3f67261424b8047af975db201f655bbcc10e231b2d3",
+    "nir_dahan_plaque_preview_NarkisTamMedium_300dpi.png": "554c530cb71f90f51267da0fa5bbd64f8f6874094c9c28e5f3c4981c8128e17b",
+    "nir_dahan_plaque_PRINT_SHOP_NOTES_NarkisTamMedium.txt": "f243bfadad8a4d19c04a3a6570c15249926d458ed0e75fe49760ea29ae4977c5"
+  },
+  "notes": [
+    "PDF byte hashes can change when producer metadata/timestamps change. Use rendered-page comparison for visual equivalence.",
+    "The reconstructed Noto front-view renderer has been verified pixel-identical to the historical Noto front-view PDF at 200 dpi.",
+    "The reconstructed Narkis Tam front-view renderer differs only negligibly in the caption raster because of outline/export rounding; geometry and appearance are effectively identical."
+  ]
+}
