@@ -1,0 +1,27 @@
+{
+  "id": "david_libre_regular",
+  "display_name": "David Libre Regular",
+  "backend": "reportlab",
+  "font": {
+    "hebrew_file": "DavidLibre-Regular.ttf",
+    "latin_file": "DavidLibre-Regular.ttf",
+    "sha256_reference": "eafd65ea0df2bbd0da4811e876bd84af695e437b6c3c66a729599b8675806052",
+    "license": "SIL Open Font License 1.1"
+  },
+  "name_font_size_pt": 34.0,
+  "date_font_size_pt": 16.0,
+  "name_baseline_from_bottom_mm": 23.029168,
+  "date_baseline_from_bottom_mm": 12.326387,
+  "fabrication_overlay": {
+    "stroke_color": "#d32222",
+    "stroke_width_mm": 0.35,
+    "crosshair_total_length_mm": 8.0,
+    "footer_text": null
+  },
+  "production_spec": {
+    "name_visible_height_mm": 9.2,
+    "date_visible_height_mm": 5.3,
+    "visual_line_gap_mm": 4.0,
+    "caption_block_note": "Historical David Libre version centered the text block more vertically in the 41 mm bottom band than the later reference-matched versions."
+  }
+}
